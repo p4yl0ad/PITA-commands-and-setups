@@ -11,3 +11,8 @@ Collection of pain in the ass commands which take a bit of googling to find the 
 - $ apt-get update && apt-get upgrade
 - $ sudo apt-get install openjdk-8-jdk
 - $ sudo update-alternatives --config java
+
+
+
+```linux b64 -> NT utf-16le b64```
+- $ echo 'command here' | iconv -t utf-16le | base64 -w 0
