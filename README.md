@@ -5,7 +5,7 @@ Collection of pain in the ass commands which take a bit of googling to find the 
 
 
 
-```Installing jdk-8```
+```Installing jdk-8 in kali 2020.X```
 - $ sudo apt-get install openjdk-8-jdk
 - $ echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list
 - $ apt-get update && apt-get upgrade
